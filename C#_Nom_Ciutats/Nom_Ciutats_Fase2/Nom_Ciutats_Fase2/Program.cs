@@ -84,9 +84,9 @@ namespace Nom_Ciutats__Fase_2_
           "----- les dades s'han emmagatzemat en un array de la següent manera---------------" +
         "\n");
 
-            for (i = 0; i < Ciutat.Length; i++)
+            for (i = 0; i < array_Ciutats.Length; i++)
             {
-                Console.WriteLine("Ciutat[" + i + "] = " + Ciutat[i]);
+                Console.WriteLine("array_Ciutats[" + i + "] = " + array_Ciutats[i]);
             }
 
             Console.ReadLine();
